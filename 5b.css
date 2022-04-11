@@ -1,0 +1,14 @@
+p{
+    font-family: arial;
+}
+.title{
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: x-large;
+
+}
+.sub-title{
+    font-style: italic;
+    color: rgb(217, 6, 6);
+    margin-top: 5px;
+}
