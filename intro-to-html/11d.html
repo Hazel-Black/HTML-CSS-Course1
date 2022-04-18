@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 11d
+        </title>
+        <style>
+            p{
+                font-family: arial;
+            }
+            button{
+                margin-top: 5px;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                border:none;
+                color: white;
+                background-color: rgb(56, 107, 247);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right:20px;
+                border-radius: 5px;
+            }
+            .profile{
+                box-shadow: 0px 0px 10px rgb(69, 69, 76);
+                width: 200px;
+            }
+            .name{
+                font-size: x-large;
+                font-weight: bold;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px;
+            }
+            .profile-picture{
+                width: 200px;
+                object-fit: fill;
+                height:200px;
+            }
+            .mutual-friend{
+                width:50px;
+                height: 50px;
+                border-radius: 220px;
+                object-fit: fill;
+                display: inline-block;
+                margin-left: 5px;
+            }
+            .mutual-friend-count{
+                display: inline-block;
+                vertical-align: top;
+            }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="video-grid">
+            <div class="profile" >
+                <img class="profile-picture" src="/intro-to-html/Exercise Images/7-image.png">
+            <p class="name">
+                Olivia
+            </p>
+            <div class="mutualfriend-section">
+                <img class="mutual-friend" src="/intro-to-html/Exercise Images/10e3.jpeg">
+                <p class="mutual-friend-count">
+                    5 mutual friends
+                </p>
+            </div>
+            <Button>
+                Add Friend
+            </Button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="/intro-to-html/Exercise Images/9g2.jpg">
+            <p class="name">
+                Susie
+            </p>
+            <div class="mutualfriend-section">
+                <img class="mutual-friend" src="/intro-to-html/Exercise Images/10e3.jpeg">
+                <p class="mutual-friend-count">
+                    2 mutual friends
+                </p>
+            </div>
+            <Button>
+                Add Friend
+            </Button>
+            </div>
+            <div class="profile">
+                <img class="profile-picture" src="/intro-to-html/Exercise Images/9g3.jpg">
+            <p class="name">
+                Frankie
+            </p>
+            <div class="mutualfriend-section">
+                <img class="mutual-friend" src="/intro-to-html/Exercise Images/10e3.jpeg">
+                <p class="mutual-friend-count">
+                    10 mutual friends
+                </p>
+            </div>
+            <Button>
+                Add Friend
+            </Button>
+            </div>
+        </div>
+    </body>
+</html>
