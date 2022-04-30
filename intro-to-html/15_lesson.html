@@ -2,7 +2,7 @@
 <Html>
     <head>
 <title>
-    position absoluste practice
+    position practice
 </title>
     </head>
     <body style="height: 3000px;
@@ -15,7 +15,8 @@
         top: 0px;
         height: 50px;
         left: 0px;
-        right:0px
+        right:0px;
+        z-index: 1;
         ">
             Header
         </div>
@@ -30,19 +31,31 @@
         
         ">
             Sidebar
+            <div style="
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 0px;
+            right: 0px;
+            ">
+                x
+            </div>
         </div>
         <div style="
         position: absolute;
         background-color: red;
         color: white;
-        
+        top: 60px;
+        right: 10px;
         ">
-            absoluste
+            absolute
         </div>
+
         <div style="background-color:lightblue;
         height: 200px;
         width: 200px;
         position: static;
+        z-index: 2;
         
         ">
             div 1
@@ -50,8 +63,19 @@
         <div style="background-color: lightpink;
         height: 200px;
         width: 200px;
+        position: relative;
         ">
             div 2
+            <div style="
+            position: absolute;
+            background-color: black;
+            color: white;
+            bottom: 10px;
+            right: 10px;
+            
+            ">
+                5:00
+            </div>
         </div>
     </body>
 </Html>
